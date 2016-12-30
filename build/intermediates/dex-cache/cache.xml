@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_706d97625890cf6981835ea8cea8ac22719c8b94.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jbundle.util.osgi.wrapped\org.jbundle.util.osgi.wrapped.org.apache.http.client\4.1.2\98c86e42679fe7ac066f6c242e0d14f0bce0bb7c\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_b1688319acc887bcc69b42535cac3b3562df695a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_34841c523325c46835f1f1d7a1f604b93b7c8b4a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_af5707f7e4643b0483821ea0e084b9ab62fa6adc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_b456723b5ab7b2ebf312cccb8f7be25162619ddf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_03f73887857e55bec9bc4cdf7e401eaa17ad4dfc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_5f3aba0bca26ef228e686e86d94b2007fb8c62df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_dd2dde13db438a00c45193b593c205b6df5f3957.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_db2d1b70c5c926f1e6b378d954198d8856a20d08.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_b1bb2536d1584601d5f07ebafc287bd0f92cf6d3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_9bfafa284965270afb900b38aeecb51d5e475e01.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\healthapp\LoginApp\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_ef15b6c2b32094e47ae12f0736503637bf95cf1b.jar" />
+    </item>
+
+</items>
