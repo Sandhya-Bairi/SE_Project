@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingTop="190dp"
+    tools:context="com.example.admin.loginapp.Interface4">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily routine"
+            android:id="@+id/dailyroutine"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy Recipies"
+            android:id="@+id/healthyrecepies"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/dailyroutine"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight Management"
+            android:id="@+id/weightmanagement"
+            android:paddingLeft="80dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/healthyrecepies"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

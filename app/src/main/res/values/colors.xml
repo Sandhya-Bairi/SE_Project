@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#33691E</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="textColor">#F1F8E9</color>
+    <color name="buttonColor">#388E3C</color>
+    <color name="convoColor">#FF3D00</color>
+    <color name="mainBack">#FF8F00</color>
+    <color name="partsBack">#ffffff</color>
+    <color name="diseasesBack">#C5E1A5</color>
+</resources>

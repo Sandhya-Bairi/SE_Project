@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/mainBack"
+    tools:context="com.example.admin.loginapp.Interface12">
+
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/logout"
+              android:layout_gravity="right"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentEnd="true"
+              android:text="logout"
+              android:textStyle="bold"
+              android:drawableTop="@mipmap/log"
+              />
+
+          <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diseasesCure"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Diseases and Cure"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/diseases"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstAid"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:drawableTop="@drawable/firstaid"
+        android:text="First-Aid"
+        android:textStyle="bold"
+        android:layout_below="@+id/diseasesCure"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fitnessDiet"
+        android:text="Fitness and Diet"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/fitness"
+        android:layout_below="@+id/firstAid"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start a Conversation"
+            android:textColor="@color/textColor"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/convoButton"
+            />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

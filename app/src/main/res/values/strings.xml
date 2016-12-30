@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">A-Z Natural Remedies</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="login_bn_label">Login</string>
+    <string name="sign_up_text">New User?Sign Up</string>
+    <string name="start_convo">Start a Conversation</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_age">Age</string>
+    <string name="reg_bn_label">Register</string>
+    <string name="prompt_com_password">Confirm Password</string>
+    <string name="button1">Astigmatism</string>
+    <string name="logout">Logout</string>
+
+    <string name="text2"><a href="https://www.youtube.com/watch?v=KVeApcI9THc">https://www.youtube.com/watch?v=KVeApcI9THc</a></string>
+    <string name="text3"><a href="https://www.youtube.com/watch?v=CJt7XySKqYI">https://www.youtube.com/watch?v=CJt7XySKqYI</a></string>
+    <string name="text4"><a href="https://www.youtube.com/watch?v=2pVGG09VmfQ">https://www.youtube.com/watch?v=2pVGG09VmfQ</a></string>
+    <string name="text5"><a href="https://www.youtube.com/watch?v=CKKemmOjWeo">https://www.youtube.com/watch?v=CKKemmOjWeo</a></string>
+    <string name="text6"><a href="https://www.youtube.com/watch?v=bb_z2Opy67A">https://www.youtube.com/watch?v=bb_z2Opy67A</a></string>
+    <string name="text7"><a href="https://www.youtube.com/watch?v=fKzdiuseEIw">https://www.youtube.com/watch?v=fKzdiuseEIw</a></string>
+    <string name="text8"><a href=" https://www.youtube.com/watch?v=Pi7oA1ZMxBc"> https://www.youtube.com/watch?v=Pi7oA1ZMxBc</a></string>
+    <string name="text9"><a href="https://www.youtube.com/watch?v=4mkQdmL1eFQ">https://www.youtube.com/watch?v=4mkQdmL1eFQ</a></string>
+    <string name="text10"><a href="https://www.youtube.com/watch?v=5r7haVfZXek">https://www.youtube.com/watch?v=5r7haVfZXek</a></string>
+    <string name="text11"><a href="https://www.youtube.com/watch?v=AGznNGtT4xw">https://www.youtube.com/watch?v=AGznNGtT4xw</a></string>
+    <string name="text12"><a href="https://www.youtube.com/watch?v=4pOSNcEOaTI">https://www.youtube.com/watch?v=4pOSNcEOaTI</a></string>
+    <string name="text13"><a href="https://www.youtube.com/watch?v=owXhSD7XwUk">https://www.youtube.com/watch?v=owXhSD7XwUk</a></string>
+    <string name="text14"><a href=" https://www.youtube.com/watch?v=UNC9Wjv0ORg"> https://www.youtube.com/watch?v=UNC9Wjv0ORg</a></string>
+    <string name="text15"><a href="https://www.youtube.com/watch?v=BZMD3cfyjVI">https://www.youtube.com/watch?v=BZMD3cfyjVI</a></string>
+    <string name="text16"><a href=" https://www.youtube.com/watch?v=Ot7c3syPtr4"> https://www.youtube.com/watch?v=Ot7c3syPtr4</a></string>
+    <string name="text17"><a href=" https://www.youtube.com/watch?v=0jps5SZlTdo"> https://www.youtube.com/watch?v=0jps5SZlTdo</a></string>
+
+
+
+    <string name="my_text1">
+  <![CDATA[
+    <em>Jasmine Flowers</em><br/>
+  ]]>
+</string>
+    <string name="my_text2">
+  <![CDATA[
+    <i>Cucumber </i><br/>
+  ]]>
+</string>
+<string name="my_text3">
+  <![CDATA[
+    <b>Icepack </b><br/>
+  ]]>
+</string>
+    <string name="my_text4">
+  <![CDATA[
+    <b>Honey </b><br/>
+  ]]>
+</string>
+    <string name="my_text5">
+  <![CDATA[
+    <b>Lemon Juice</b><br/>
+  ]]>
+</string>
+    <string name="my_text6">
+  <![CDATA[
+    <b>Warm Compress </b><br/>
+  ]]>
+</string>
+    <string name="my_text7">
+  <![CDATA[
+    <b>Aloevera </b><br/>
+  ]]>
+</string>
+    <string name="title_activity_interface12">Interface12</string>
+
+
+</resources>

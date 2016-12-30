@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/diseasesBack"
+    tools:context="com.example.admin.loginapp.eye_but2">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/head1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Causes"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txtDetails1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:text="TextView"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:layout_below="@+id/head1"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eye18"
+            android:layout_below="@+id/txtDetails1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symptoms"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_below="@+id/img1"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txtDetails2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:text="TextView"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:layout_below="@+id/head2"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_marginBottom="5dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eye19"
+            android:layout_below="@+id/txtDetails2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/head3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remedies"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_below="@+id/img2"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txtDetails3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:text="TextView"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:layout_below="@+id/head3"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/head4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prevention"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_below="@+id/img3"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtDetails4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:text="TextView"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:layout_below="@+id/head4"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eye20"
+            android:layout_below="@+id/txtDetails3"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@+id/img1"
+            android:layout_alignEnd="@+id/img1" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eye21"
+            android:layout_below="@+id/txtDetails4"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

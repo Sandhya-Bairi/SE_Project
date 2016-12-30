@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.admin.loginapp.Interface03">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BASIC FIRST AID"
+            android:id="@+id/basicFirstAid"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fire accidents"
+            android:id="@+id/fire"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/basicFirstAid"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="snake bite"
+            android:id="@+id/snakeBite"
+            android:paddingLeft="110dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/fire"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CPR"
+            android:id="@+id/cpr"
+            android:paddingLeft="140dp"
+            android:paddingRight="120dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/snakeBite"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Common accidents"
+            android:id="@+id/acci"
+            android:paddingLeft="75dp"
+            android:paddingRight="75dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cpr"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="current shocks"
+            android:id="@+id/currShock"
+            android:paddingLeft="85dp"
+            android:paddingRight="80dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/acci"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="emergency delivery"
+            android:id="@+id/delivery"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/currShock"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FITS"
+            android:id="@+id/fits"
+            android:paddingLeft="125dp"
+            android:paddingRight="125dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/delivery"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sun stroke"
+            android:id="@+id/sunStroke"
+            android:paddingLeft="100dp"
+            android:paddingRight="110dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@color/mainBack"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/fits"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

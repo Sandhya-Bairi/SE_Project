@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.admin.loginapp.Interface2">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:background="@color/mainBack"
+     >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eyeCare"
+        android:text="Eye care"
+        android:textStyle="bold"
+        android:background="@color/buttonColor"
+        android:drawableTop="@drawable/eyecare"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oralcare"
+        android:text="Oral care"
+        android:textStyle="bold"
+        android:background="@color/buttonColor"
+        android:drawableTop="@drawable/oralcare"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/eyeCare"
+        android:layout_toEndOf="@+id/eyeCare" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skincare"
+        android:text="Skin care"
+        android:textStyle="bold"
+        android:background="@color/buttonColor"
+        android:drawableTop="@drawable/skincare"
+        android:layout_below="@+id/eyeCare"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/beautycare"
+        android:text="Beauty care"
+        android:background="@color/buttonColor"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/beautycare"
+        android:layout_below="@+id/oralcare"
+        android:layout_toRightOf="@+id/skincare"
+        android:layout_toEndOf="@+id/skincare" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/hypertension"
+         android:text="Blood pressure"
+         android:textStyle="bold"
+         android:background="@color/buttonColor"
+         android:drawableTop="@drawable/hypertension"
+         android:layout_below="@+id/skincare"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/nose"
+         android:text="Respiratory issues"
+         android:background="@color/buttonColor"
+         android:textStyle="bold"
+         android:drawableTop="@drawable/lungs"
+         android:layout_below="@+id/beautycare"
+         android:layout_toEndOf="@+id/skincare" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/haircare"
+         android:text="Hair care"
+         android:textStyle="bold"
+         android:background="@color/buttonColor"
+         android:drawableTop="@drawable/hair"
+         android:layout_below="@+id/hypertension"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/arthritis"
+         android:text="Arthritis"
+         android:background="@color/buttonColor"
+         android:textStyle="bold"
+         android:drawableTop="@drawable/arthritis"
+         android:layout_below="@+id/nose"
+         android:layout_toEndOf="@+id/skincare" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/stomache"
+         android:text="Stomach Ache"
+         android:textStyle="bold"
+         android:background="@color/buttonColor"
+         android:drawableTop="@drawable/stomache"
+         android:layout_below="@+id/haircare"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/sugar"
+         android:text="Diabetes"
+         android:background="@color/buttonColor"
+         android:textStyle="bold"
+         android:drawableTop="@drawable/sugar"
+         android:layout_below="@+id/arthritis"
+         android:layout_toEndOf="@+id/skincare" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/women"
+         android:text="Feminine Issues"
+         android:textStyle="bold"
+         android:background="@color/buttonColor"
+         android:drawableTop="@drawable/women"
+         android:layout_below="@+id/stomache"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/allergy"
+         android:text="Allergy"
+         android:background="@color/buttonColor"
+         android:textStyle="bold"
+         android:drawableTop="@drawable/allergy"
+         android:layout_below="@+id/sugar"
+         android:layout_toEndOf="@+id/skincare" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/heart"
+         android:text="Cardiac Diseases"
+         android:textStyle="bold"
+         android:background="@color/buttonColor"
+         android:drawableTop="@drawable/heart"
+         android:layout_below="@+id/women"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/stress"
+         android:text="Stress"
+         android:background="@color/buttonColor"
+         android:textStyle="bold"
+         android:drawableTop="@drawable/stress"
+         android:layout_below="@+id/allergy"
+         android:layout_toEndOf="@+id/skincare" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/brain"
+         android:text="Brain Disorders"
+         android:textStyle="bold"
+         android:background="@color/buttonColor"
+         android:drawableTop="@drawable/brain"
+         android:layout_below="@+id/heart"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/nerves"
+         android:text="Neurological disorders"
+         android:background="@color/buttonColor"
+         android:textStyle="bold"
+         android:drawableTop="@drawable/nerves"
+         android:layout_below="@+id/stress"
+         android:layout_toEndOf="@+id/skincare" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ear"
+         android:text="Ear care"
+         android:textStyle="bold"
+         android:background="@color/buttonColor"
+         android:drawableTop="@drawable/ear"
+         android:layout_below="@+id/brain"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+
+ </RelativeLayout>
+</ScrollView>
